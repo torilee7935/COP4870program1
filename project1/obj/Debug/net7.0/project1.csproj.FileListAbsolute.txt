@@ -1,0 +1,15 @@
+/Users/torilee/Projects/project1/project1/bin/Debug/net7.0/project1
+/Users/torilee/Projects/project1/project1/bin/Debug/net7.0/project1.deps.json
+/Users/torilee/Projects/project1/project1/bin/Debug/net7.0/project1.runtimeconfig.json
+/Users/torilee/Projects/project1/project1/bin/Debug/net7.0/project1.dll
+/Users/torilee/Projects/project1/project1/bin/Debug/net7.0/project1.pdb
+/Users/torilee/Projects/project1/project1/obj/Debug/net7.0/project1.csproj.AssemblyReference.cache
+/Users/torilee/Projects/project1/project1/obj/Debug/net7.0/project1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/torilee/Projects/project1/project1/obj/Debug/net7.0/project1.AssemblyInfoInputs.cache
+/Users/torilee/Projects/project1/project1/obj/Debug/net7.0/project1.AssemblyInfo.cs
+/Users/torilee/Projects/project1/project1/obj/Debug/net7.0/project1.csproj.CoreCompileInputs.cache
+/Users/torilee/Projects/project1/project1/obj/Debug/net7.0/project1.dll
+/Users/torilee/Projects/project1/project1/obj/Debug/net7.0/refint/project1.dll
+/Users/torilee/Projects/project1/project1/obj/Debug/net7.0/project1.pdb
+/Users/torilee/Projects/project1/project1/obj/Debug/net7.0/project1.genruntimeconfig.cache
+/Users/torilee/Projects/project1/project1/obj/Debug/net7.0/ref/project1.dll
