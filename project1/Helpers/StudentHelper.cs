@@ -49,9 +49,7 @@ namespace project1.Helpers
                 studentService.Add(selectedStudent);
             }
 
-            
-
-            studentService.studentList.ForEach(student => Console.WriteLine());
+         
         }
 
         public void UpdateStudentRecord()

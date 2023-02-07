@@ -22,7 +22,8 @@ namespace project1
                 Console.WriteLine("5. Add course");
                 Console.WriteLine("6. Update a course");
                 Console.WriteLine("7. List all courses");
-                Console.WriteLine("8. Exit");
+                Console.WriteLine("8. Search for a course");
+                Console.WriteLine("9. Exit");
 
                 var input = Console.ReadLine();
 
@@ -51,8 +52,10 @@ namespace project1
                     }else if (result == 7)
                     {
                         courseHelper.ListCourses();
-                    }
-                    else if (result == 8)
+                    }else if (result == 8)
+                    {
+                        courseHelper.SearchCourses();
+                    }else if (result == 9)
                     {
                         cont = false;
                     }

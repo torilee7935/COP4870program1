@@ -5,7 +5,7 @@ namespace project1.program1.library.Services
 {
 	public class StudentServices
 	{
-        public List<Person> studentList = new List<Person>();
+        private List<Person> studentList = new List<Person>();
 
         public void Add(Person student)
         {

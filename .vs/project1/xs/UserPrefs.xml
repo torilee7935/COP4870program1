@@ -2,14 +2,14 @@
   <MonoDevelop.Ide.ItemProperties.project1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="project1/Helpers/StudentHelper.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="project1/program1.library/Services/StudentServices.cs">
     <Files>
-      <File FileName="project1/Program.cs" Line="36" Column="61" />
-      <File FileName="project1/program1.library/program1.library/Services/StudentServices.cs" Line="21" Column="10" />
-      <File FileName="project1/program1.library/program1.library/Services/CourseService.cs" Line="18" Column="1" />
-      <File FileName="project1/Helpers/CourseHelper.cs" Line="29" Column="65" />
-      <File FileName="project1/Helpers/StudentHelper.cs" Line="75" Column="1" />
-      <File FileName="project1/program1.library/program1.library/Module/Course.cs" Line="24" Column="42" />
+      <File FileName="project1/Program.cs" Line="22" Column="52" />
+      <File FileName="project1/program1.library/program1.library/Services/StudentServices.cs" Line="8" Column="63" />
+      <File FileName="project1/program1.library/program1.library/Services/CourseService.cs" Line="9" Column="16" />
+      <File FileName="project1/Helpers/CourseHelper.cs" Line="68" Column="33" />
+      <File FileName="project1/Helpers/StudentHelper.cs" Line="52" Column="10" />
+      <File FileName="project1/program1.library/program1.library/Module/Course.cs" Line="26" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
