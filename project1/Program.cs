@@ -1,4 +1,5 @@
-﻿using program1.library.Module;
+﻿using System.Runtime.Intrinsics.X86;
+using program1.library.Module;
 using project1.Helpers;
 
 namespace project1
@@ -15,8 +16,8 @@ namespace project1
                 Console.WriteLine("Choose an action:");
                 Console.WriteLine("1. Add student");
                 Console.WriteLine("2. List all enrolled students");
-                Console.WriteLine("3. Add course");
-                Console.WriteLine("3. Exit");
+                Console.WriteLine("3. Search for student");
+                Console.WriteLine("4. Exit");
 
                 var input = Console.ReadLine();
 
@@ -31,11 +32,15 @@ namespace project1
                         studentHelper.ListStudents();
                     }else if (result == 3)
                     {
+                        studentHelper.SearchStudents();
+                    }else if (result == 4)
+                    {
                         cont = false;
                     }
 
+
                 }
-                
+
             }
 
         }

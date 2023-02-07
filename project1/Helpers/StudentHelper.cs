@@ -51,6 +51,14 @@ namespace project1.Helpers
 
 
         }
+
+        public void SearchStudents()
+        {
+            Console.WriteLine("Enter a query: ");
+            var query = Console.ReadLine() ?? string.Empty;
+
+            studentService.Search(query).ToList().ForEach(Console.WriteLine);
+        }
 	}
 }
 
