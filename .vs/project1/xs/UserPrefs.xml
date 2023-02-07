@@ -2,17 +2,25 @@
   <MonoDevelop.Ide.ItemProperties.project1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="project1/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="project1/Helpers/StudentHelper.cs">
     <Files>
-      <File FileName="project1/Program.cs" Line="3" Column="29" />
+      <File FileName="project1/Program.cs" Line="36" Column="61" />
+      <File FileName="project1/program1.library/program1.library/Services/StudentServices.cs" Line="21" Column="10" />
+      <File FileName="project1/program1.library/program1.library/Services/CourseService.cs" Line="18" Column="1" />
+      <File FileName="project1/Helpers/CourseHelper.cs" Line="29" Column="65" />
+      <File FileName="project1/Helpers/StudentHelper.cs" Line="75" Column="1" />
+      <File FileName="project1/program1.library/program1.library/Module/Course.cs" Line="24" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="project1" expanded="True">
             <Node name="project1" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Helpers" expanded="True" />
+              <Node name="program1.library" expanded="True">
+                <Node name="Module" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>

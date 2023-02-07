@@ -2,7 +2,7 @@
 
 namespace program1.library.Module
 {
-	internal class Course
+	public class Course
 	{
 		public string Code { get; set; }
         public string Name { get; set; }
@@ -21,6 +21,10 @@ namespace program1.library.Module
             Modules = new List<Module>();
         }
 
+        public override string ToString()
+        {
+            return $"{Code} - {Name}";
+        }
     }
 }
 

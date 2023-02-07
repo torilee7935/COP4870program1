@@ -1,6 +1,7 @@
 ﻿using System;
+using System.Xml.Linq;
 using program1.library.Module;
-using project1.program1.library.program1.library.Services;
+using project1.program1.library.Services;
 
 namespace project1.Helpers
 {
@@ -8,7 +9,7 @@ namespace project1.Helpers
 	{
 
         private StudentServices studentService = new StudentServices();
-        public void CreateStudentRecord()
+        public void CreateStudentRecord(Person? selectedStudent = null)
         {
             
             Console.WriteLine("What is the name of the student?");
@@ -33,16 +34,42 @@ namespace project1.Helpers
                 classEnum = PersonClassification.Senior;
             }
 
-            var student = new Person
+            bool isCreate = false;
+            if(selectedStudent == null)
             {
-                Id = int.Parse(id ?? "0"),
-                Name = name ?? string.Empty,
-                Classification = classEnum
-            };
+                selectedStudent = new Person();
+            }
 
-            studentService.Add(student);
+            selectedStudent.Id = int.Parse(id ?? "0");
+            selectedStudent.Name = name ?? string.Empty;
+            selectedStudent.Classification = classEnum;
+
+            if (isCreate)
+            {
+                studentService.Add(selectedStudent);
+            }
+
+            
 
             studentService.studentList.ForEach(student => Console.WriteLine());
+        }
+
+        public void UpdateStudentRecord()
+        {
+            Console.WriteLine("Select student to update: ");
+            ListStudents();
+
+            var selectionStr = Console.ReadLine();
+
+            if (int.TryParse(selectionStr, out int selectionInt))
+            {
+                var selectedStudent = studentService.Students.FirstOrDefault(s => s.Id == selectionInt);
+                if (selectedStudent != null)
+                {
+                    CreateStudentRecord(selectedStudent);
+                }
+            }
+
         }
 
         public void ListStudents()
@@ -59,6 +86,8 @@ namespace project1.Helpers
 
             studentService.Search(query).ToList().ForEach(Console.WriteLine);
         }
+
+       
 	}
 }
 

@@ -1,7 +1,7 @@
 ﻿using System;
 namespace program1.library.Module
 {
-	internal class Assignment
+	public class Assignment
 	{
         public string? Name { get; set; }
         public string? Description { get; set; }

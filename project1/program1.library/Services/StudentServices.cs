@@ -1,7 +1,7 @@
 ﻿using System;
 using program1.library.Module;
 
-namespace project1.program1.library.program1.library.Services
+namespace project1.program1.library.Services
 {
 	public class StudentServices
 	{
