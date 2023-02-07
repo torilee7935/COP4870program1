@@ -1,18 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Helpers\" />
-    <None Remove="program1.library\program1.library\Services\" />
+    <None Remove="Module\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Helpers\" />
-    <Folder Include="program1.library\program1.library\Services\" />
+    <Folder Include="Module\" />
   </ItemGroup>
 </Project>
