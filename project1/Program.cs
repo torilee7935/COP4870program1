@@ -15,6 +15,7 @@ namespace project1
                 Console.WriteLine("Choose an action:");
                 Console.WriteLine("1. Add student");
                 Console.WriteLine("2. List all enrolled students");
+                Console.WriteLine("3. Add course");
                 Console.WriteLine("3. Exit");
 
                 var input = Console.ReadLine();
